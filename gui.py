@@ -33,7 +33,7 @@ class RadioButtons(tk.Canvas):
             for j in range(3):
                 (x,y) = center + (internalHexRad+j*2*self.radius)*radVec + leftVec*2*self.radius
 
-                print((internalHexRad+j*2*self.radius)*radVec)[1])
+                print((internalHexRad+j*2*self.radius)*radVec[1])
                 circle = self.create_oval(
                     x - self.radius, y - self.radius,
                     x + self.radius, y + self.radius,
